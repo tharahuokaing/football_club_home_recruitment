@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huokaing Thara Football Club | Home & Recruitment</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <h1><i class="fa-solid fa-shield-halved"></i> Huokaing Thara FC</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active en-text">Home & Recruitment</a><a href="index.html" class="active kh-text" style="display:none;">ទំព័រដើម និងការជ្រើសរើស</a></li>
+                    <li><a href="about.html" class="en-text">About Us</a><a href="about.html" class="kh-text" style="display:none;">អំពីយើង</a></li>
+                    <li><a href="squad.html" class="en-text">Squad</a><a href="squad.html" class="kh-text" style="display:none;">កីឡាករ</a></li>
+                    <li><a href="news.html" class="en-text">News</a><a href="news.html" class="kh-text" style="display:none;">ព័ត៌មាន</a></li>
+                    <li><a href="contact.html" class="en-text">Contact</a><a href="contact.html" class="kh-text" style="display:none;">ទំនាក់ទំនង</a></li>
+                </ul>
+            </nav>
+            <div class="lang-switch">
+                <button id="lang-btn" onclick="toggleLanguage()">🇰🇭 ខ្មែរ</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge en-text">Official Recruitment Portal</span>
+            <span class="badge kh-text" style="display:none;">ច្រកទ្វារចុះឈ្មោះផ្លូវការ</span>
+            
+            <h2 class="en-text">HUOKAING THARA FOOTBALL CLUB</h2>
+            <h2 class="kh-text" style="display:none;">ក្លឹបបាល់ទាត់ ហួកាំង ថារ៉ា</h2>
+            
+            <p class="motto-text en-text">"Health lives in peace, and sport is for health."</p>
+            <p class="motto-text kh-text" style="display:none;">«សុខភាពរស់នៅក្នុងសន្តិភាព ហើយកីឡានាំមកនូវសុខភាព»</p>
+            
+            <div class="hero-buttons">
+                <a href="#recruitment-section" class="btn btn-primary en-text">Join 22-Man Squad</a>
+                <a href="#recruitment-section" class="btn btn-primary kh-text" style="display:none;">ចុះឈ្មោះចូលរួមក្រុម ២២ រូប</a>
+                <a href="#location" class="btn btn-secondary en-text">Training Location</a>
+                <a href="#location" class="btn btn-secondary kh-text" style="display:none;">ទីតាំងហ្វឹកហាត់</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coaching Status Update Section -->
+    <section class="container section">
+        <h2 class="section-title en-text">Club & Coaching Management</h2>
+        <h2 class="section-title kh-text" style="display:none;">ការគ្រប់គ្រងក្លឹប និងគ្រូបង្វឹក</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-icon"><i class="fa-solid fa-user-tie"></i></div>
+                <h3 class="en-text">Head Coach: Mr. Seng Chhat</h3>
+                <h3 class="kh-text" style="display:none;">គ្រូបង្វឹក الرئيسي៖ លោក សេង ឆាត</h3>
+                <p class="en-text">Currently recovering from temporary health conditions. Set to resume full leadership of the 22-man core squad upon complete recovery.</p>
+                <p class="kh-text" style="display:none;">បច្ចុប្បន្នកំពុងសម្រាកព្យាបាលសុខភាពបណ្តោះអាសន្ន។ នឹងត្រឡប់មកដឹកនាំក្រុមស្នូល ២២ រូបវិញនៅពេលជាសះស្បើយពេញលេញ។</p>
+            </div>
+
+            <div class="card highlighted-card">
+                <div class="card-icon"><i class="fa-solid fa-user-gear"></i></div>
+                <h3 class="en-text">Interim Coach: Mr. Huokaing Thara</h3>
+                <h3 class="kh-text" style="display:none;">គ្រូបង្វឹកបណ្តោះអាសន្ន៖ លោក ហួកាំង ថារ៉ា</h3>
+                <p class="en-text">Founder and Interim Coach directing active recruitment, stadium training drills, and squad readiness during the transitional period.</p>
+                <p class="kh-text" style="display:none;">ស្ថាបនិក និងជាគ្រូបង្វឹកបណ្តោះអាសន្ន ដឹកនាំការចុះឈ្មោះ ការហ្វឹកហាត់ផ្ទាល់នៅកីឡដ្ឋាន និងការរៀបចំក្រុមក្នុងអំឡុងពេលអន្តរកាលនេះ។</p>
+            </div>
+
+            <div class="card" id="location">
+                <div class="card-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <h3 class="en-text">Olympic Stadium Base</h3>
+                <h3 class="kh-text" style="display:none;">ទីតាំងពហុកីឡដ្ឋានអូឡាំពិក</h3>
+                <p class="en-text">All trials and training sessions are held at the <b>Olympic Stadium</b>, located directly in front of the historic old court building in Phnom Penh.</p>
+                <p class="kh-text" style="display:none;">ការសាកល្បងសមត្ថភាព និងការហ្វឹកហាត់ទាំងអស់ធ្វើឡើងនៅ <b>ពហុកីឡដ្ឋានជាតិអូឡាំពិក</b> ស្ថិតនៅចំពីមុខអគារតុលាការចាស់ រាជធានីភ្នំពេញ។</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 22-Man Squad Recruitment Section -->
+    <section id="recruitment-section" class="recruitment-section">
+        <div class="container section">
+            <h2 class="section-title en-text">22-Man Squad Player Recruitment</h2>
+            <h2 class="section-title kh-text" style="display:none;">ការជ្រើសរើសកីឡាករបំពេញបញ្ជី ២២ រូប</h2>
+            
+            <p class="recruitment-lead en-text">We are opening recruitment for passionate male and female players to join our core roster. Follow these steps to register:</p>
+            <p class="recruitment-lead kh-text" style="display:none;">ពួកយើងកំពុងបើកទទួលបេក្ខភាពកីឡាករ និងកីឡាការិនីដែលមានចំណង់ចំណូលចិត្ត ដើម្បីចូលរួមក្នុងបញ្ជីឈ្មោះស្នូល។ សូមអនុវត្តតាមជំហានទាំងនេះ៖</p>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-num">1</div>
+                    <h4 class="en-text">Visit Stadium Booth</h4>
+                    <h4 class="kh-text" style="display:none;">អញ្ជើញមកទីតាំងផ្ទាល់</h4>
+                    <p class="en-text">Meet us at the Olympic Stadium recruitment desk in front of the old court.</p>
+                    <p class="kh-text" style="display:none;">មកកាន់តុចុះឈ្មោះនៅពហុកីឡដ្ឋានអូឡាំពិក ទល់មុខតុលាការចាស់។</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-num">2</div>
+                    <h4 class="en-text">Trial Evaluation</h4>
+                    <h4 class="kh-text" style="display:none;">វាយតម្លៃសមត្ថភាព</h4>
+                    <p class="en-text">Participate in active drills supervised by Interim Coach Huokaing Thara.</p>
+                    <p class="kh-text" style="display:none;">ចូលរួមវគ្គហ្វឹកហាត់ផ្ទាល់ក្រោមការដឹកនាំរបស់គ្រូបង្វឹក ហួកាំង ថារ៉ា។</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-num">3</div>
+                    <h4 class="en-text">Official Roster Entry</h4>
+                    <h4 class="kh-text" style="display:none;">ចូលរួមបញ្ជីផ្លូវការ</h4>
+                    <p class="en-text">Secure your spot in the official 22-man squad for upcoming matches.</p>
+                    <p class="kh-text" style="display:none;">បេក្ខភាពជាប់ឈ្មោះនឹងចូលរួមក្នុងក្រុម ២២ រូបសម្រាប់រដូវកាលខាងមុខ។</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div>
+                <h3>Huokaing Thara FC</h3>
+                <p class="en-text">Official Website: <a href="https://tharahuokaing.github.io/huokaingthara_football_club/" target="_blank">tharahuokaing.github.io</a></p>
+                <p class="kh-text" style="display:none;">គេហទំព័រផ្លូវការ៖ <a href="https://tharahuokaing.github.io/huokaingthara_football_club/" target="_blank">tharahuokaing.github.io</a></p>
+            </div>
+            <div>
+                <h3 class="en-text">Social Channels</h3>
+                <h3 class="kh-text" style="display:none;">បណ្តាញសង្គម</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Huokaing Thara Football Club. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
